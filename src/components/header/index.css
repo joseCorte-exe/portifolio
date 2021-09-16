@@ -1,0 +1,40 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    margin-right: 45px;
+
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.header-h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+}
