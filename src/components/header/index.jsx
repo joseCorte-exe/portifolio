@@ -6,31 +6,29 @@ import "../../index.css"
 
 export default function Header() {
     return (
-        <div className="header-container white-opc">
-            <div className="header-content white-f0">
-                <h2 className="header-h2">Portifólio</h2>
-                <ul>
-                    <Link to="/" className="link white-f0">
-                        <li>Home</li>
-                    </Link>
+        <header className="header-container white-opc">
+            <h2 className="header-h2 primary">Portifólio</h2>
+            <ul>
+                <Link to="/" className="link primary">
+                    Home
+                </Link>
 
-                    <Link to="/about" className="link white-f0">
-                        <li>About-me</li>
-                    </Link>
+                <Link to="/about" className="link primary">
+                    About-me
+                </Link>
 
-                    <Link to="/projects" className="link white-f0">
-                        <li>Projects</li>
-                    </Link>
+                <Link to="/projects" className="link primary">
+                    Projects
+                </Link>
 
-                    <Link to="/skills" className="link white-f0">
-                        <li>Skils</li>
-                    </Link>
-
-                    <Link to="/contact" className="link white-f0">
-                        <li>Contact</li>
-                    </Link>
-                </ul>
-            </div>
-        </div>
+                <Link to="/skills" className="link primary">
+                    Skils
+                </Link>
+{/* 
+                <Link to="/contact" className="link white-f0">
+                    Contact
+                </Link> */}
+            </ul>
+        </header>
     )
 }
