@@ -6,10 +6,10 @@ import "./index.css";
 
 export default function About() {
     return (
-        <main>
-            <section>
+        <main className="about-main">
+            <section className="about-section">
                 <h1 className="primary topic">About-me</h1>
-                <article>
+                <article className="about-article">
                     <img src={aboutSVG} className="about-img"/>
                     <p className="secondary">
                     Hi, my name is josé, I'm 18 years old and I'm studying IT technician,
@@ -23,6 +23,7 @@ export default function About() {
                     </p>
                 </article>
             </section>
+            <footer></footer>
         </main>
     )
 }

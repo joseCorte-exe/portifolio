@@ -6,25 +6,31 @@ article {
     width: 400px;
 }
 
-.about-img {
-    width: 400px;
-}
-
-main {
-    margin-right: 30px;
+.about-main {
+    padding-right: 80px;
 }
 
 @media (max-width: 930px) {
-    section {
+    .about-main {
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .about-section {
         display: flex;
         justify-content: center;
 
         flex-wrap: wrap !important;
     }
-    article {
+    .about-article {
         display: flex;
         justify-content: center;
 
         flex-wrap: wrap !important;
+    }
+    .about-img {
+        width: 300px;
     }
 }

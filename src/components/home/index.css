@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 940px) {
-    main {
+    .home-main {
         margin: 0;
 
         padding: 10px;
@@ -18,7 +18,7 @@
         flex-direction: column;
     }
 
-    section {
+    .home-section {
         margin: 0 !important;
     }
 
@@ -35,7 +35,11 @@
 
     .home-icons {
         width: 50px;
+        margin-right: 20px;
     }
+    .home-article {
+        display: flex;
 
-
+        justify-content: center;
+    }
 }

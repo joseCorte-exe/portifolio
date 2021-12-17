@@ -68,6 +68,12 @@ main {
   padding-left: 100px;
 
   padding-top: 20px;
+
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 80px;
 }
 
 main section {
