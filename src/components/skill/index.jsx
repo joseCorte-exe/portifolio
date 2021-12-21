@@ -16,13 +16,13 @@ export default function Skills() {
             <section className='skills-section'>
                 <h1 className="primary topic skills">My skills</h1>
                 <article className="skills-article">
-                    <img src={cssSVG}/>
-                    <img src={htmlSVG}/>
-                    <img src={jsSVG}/>
-                    <img src={nodeSVG}/>
-                    <img src={reactSVG}/>
-                    <img src={figmaSVG}/>
-                    <img src={next}/>
+                    <img className='svg' src={cssSVG}/>
+                    <img className='svg' src={htmlSVG}/>
+                    <img className='svg' src={jsSVG}/>
+                    <img className='svg' src={nodeSVG}/>
+                    <img className='svg' src={reactSVG}/>
+                    <img className='svg' src={figmaSVG}/>
+                    <img className='svg' src={next}/>
                 </article>
             </section>
         </main>

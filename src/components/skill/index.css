@@ -10,7 +10,7 @@
     grid-template-columns: 120px 120px 120px;
 }
 
-img{
+.svg {
     width: 100px;
     height: 100px;
     margin-bottom: 30px;
