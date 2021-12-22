@@ -22,7 +22,11 @@ export default function Header() {
                 </Link>
 
                 <Link to="/skills" className="link primary">
-                    Skils
+                    Skills
+                </Link>
+
+                <Link to="/card" className="link primary">
+                    cards
                 </Link>
 {/* 
                 <Link to="/contact" className="link white-f0">
