@@ -25,9 +25,9 @@ export default function Header() {
                     Skills
                 </Link>
 
-                <Link to="/card" className="link primary">
+                {/* <Link to="/card" className="link primary">
                     cards
-                </Link>
+                </Link> */}
 {/* 
                 <Link to="/contact" className="link white-f0">
                     Contact
