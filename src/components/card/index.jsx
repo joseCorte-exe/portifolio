@@ -8,8 +8,8 @@ export default function Card() {
         <main className="prj-main" >
             <img src={ptPrw} alt="" width="200" className='card-img' />
             <section className="prj-section" >
-                <h1>Card Title</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                <h1>portifolio</h1>
+                <p>portifolio para mostrar skills e projetos tanto na construção do proprio portifolio, quanto na construção de outros projetos</p>
             </section>
         </main>
     )
